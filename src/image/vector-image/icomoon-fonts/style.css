@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?h0ohkf');
+  src:  url('fonts/icomoon.eot?h0ohkf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?h0ohkf') format('truetype'),
+    url('fonts/icomoon.woff?h0ohkf') format('woff'),
+    url('fonts/icomoon.svg?h0ohkf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-airplane:before {
+  content: "\e900";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-airplane:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.icon-beach:before {
+  content: "\e901";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-beach:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.icon-bottom-arrow:before {
+  content: "\e902";
+  color: green;
+  font-size: 40px;
+}
+.icon-car:before {
+  content: "\e903";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-car:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.icon-city:before {
+  content: "\e904";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-city:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.icon-left-arrow:before {
+  content: "\e905";
+}
+.icon-phone-id:before {
+  content: "\e907";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-phone-id:hover:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.icon-planet:before {
+  content: "\e908";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-planet:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.icon-right-arrow:before {
+  content: "\e909";
+  color: blue;
+}
+.icon-travel:before {
+  content: "\e90a";
+  color: white;
+  font-size: 85px;
+  border-radius: 50%;
+  border: 2px solid  white;
+}
+.directions__element-link:hover .icon-travel:before {
+  color: orange;
+  border-color: orange;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
