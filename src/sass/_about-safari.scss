@@ -1,0 +1,64 @@
+.about-safari {
+    margin: 0;
+    padding: 50px 0;
+    &__content-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    &__article {
+        &-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 34px;
+        }
+        &-link {
+            color: var(--light-gray);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+            &:hover {
+                color: var(--black);
+                transform: scale(1.03);
+                transition: all 0.2s linear;
+            }
+        }
+    }
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 25px;
+    }
+    &__title {
+        color: var(--black);
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__paragraf {
+        width: 448px;
+        height: 255px;
+        flex-shrink: 0;
+        color: var(--black);
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; 
+    }
+    &__video {
+        width: 640px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+}

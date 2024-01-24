@@ -1,0 +1,55 @@
+.directions {
+    margin: 0;
+    padding: 32px 0 74px 0;
+    background-image: url("../src/image/raster-image/section3_directions/background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__content-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 52px;
+    }
+    &__title {
+        color: var(--white);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; 
+    }
+    &__element {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        &-group {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 67px;
+            column-gap: 56px;
+        }
+        &-link {
+            color: var(--white);
+            &:hover {
+                color: var(--orange);
+                display: block;
+                transform: scale(1.1);
+                transition: all 0.2s linear;
+            }
+        }
+        &-title {
+            width: 232px;
+            color: inherit;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+        }
+    }
+}

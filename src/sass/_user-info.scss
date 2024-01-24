@@ -1,0 +1,117 @@
+.user-info {
+    margin: 0;
+    padding: 75px 0 76px 0;
+    background: var(--grey-background-form);
+    &__content-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 43px;
+    }
+    &__title {
+        color: var(--black);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 67px;
+    }
+    &__user {
+        &-content-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+        }
+        &-contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 31px;
+        }
+        &-commit {
+            width: 832px;
+            height: 112px;
+            flex-shrink: 0;
+            border: 1px solid var(--grey);
+            padding: 14px;
+            outline: none;
+        }
+    }
+    &__input {
+        width: 256px;
+        height: 44px;
+        flex-shrink: 0;
+        padding: 11px 0 12px 14px;
+        color: var(--light-gray);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; 
+        border: 1px solid var(--grey);
+        outline: none;
+        &:focus-visible {
+            color: var(--black);
+        }
+        &-checkbox {
+            width: 26px;
+            height: 26px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            border: 2px solid var(--light-gray);
+        }
+        &-text_politic-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 19px;
+        }
+    }
+    &__button {
+        padding: 20px 90px;
+        border-radius: 30px;
+        background: var(--brown);
+        color: var(--white);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+        &-box {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 137px;
+        }
+        &:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+            transition: all 0.2s linear;
+        }
+    }
+    &__politics-link {
+        color: var(--black);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; 
+        text-decoration-line: underline;
+        &:hover {
+            color: var(--brown);
+        }
+    }
+}

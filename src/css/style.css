@@ -221,6 +221,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, hr {
     display: block;
     stroke: var(--white);
     animation: scroll-btn 4s linear infinite;
+    align-self: flex-end;
 }
 @keyframes scroll-btn {
     0% {
@@ -777,13 +778,13 @@ h1, h2, h3, h4, h5, h6, p, ul, li, hr {
     padding-top: 44px;
     border-top: 1px solid var(--grey);
 }
-.premium__statitic-items {
+.premium__statistic-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.premium__staistic-item_number {
+.premium__statistic-item_number {
     color: var(--brown);
     font-family: PT Serif;
     font-size: 58px;

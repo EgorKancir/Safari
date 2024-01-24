@@ -1,0 +1,235 @@
+.header {
+    margin: 0;
+    padding: 19px 0 14px 0;
+    background-image: url("../src/image/raster-image/section1_header/background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__content-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 49px;
+    }
+}
+.navigation-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__top-group {
+        width: 100%;
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        &-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 11px;
+        }
+        &-image {
+            width: 63.687px;
+            height: 60px;
+            flex-shrink: 0;        
+        }
+        &_text-box {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: start;
+            gap: 1px;
+        }
+        &_title {
+            color: var(--white);
+            font-family: PT Serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_subtitle {
+            color: var(--white);
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__tel {
+        &-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 19px;
+        }
+        &_title {
+            color: var(--white);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130%;
+        }
+        &-button {
+            padding: 12px 31px;
+            border-radius: 22px;
+            background: var(--brown);
+            color: var(--white);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            animation: button-gradient 1s linear infinite alternate;
+            &:hover {
+                transform: scale(1.05);
+                opacity: 0.8;
+                transition: transform 0.2s linear;
+            }
+        }
+    }
+    &__decor-line {
+        width: 1120px;
+        height: 1px;
+        background: var(--white);
+    }
+    &__bottom-group {
+        width: 100%;
+        padding: 27px 0 24px 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__navigation {
+        &-console {
+            width: 100%;
+        }
+        &-conatiner {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 120px;
+        }
+        &-link {
+            color: var(--white);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            &:hover {
+                display: block;
+                transform: scale(1.05);
+                transition: all 0.2s linear;
+            }
+        }
+    }
+}
+.information-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 400px;
+    &__title {
+        color: var(--black);
+        font-family: PT Serif;
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+    }
+    &__registration-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+    }
+    &__tour-registrantion-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        align-self: flex-start;
+    }
+    &__tour-info-text {
+        width: 300px;
+        color: var(--black);
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; 
+    }
+    &__tour-registrantion_button {
+        padding: 20px 55px;
+        border-radius: 30px;
+        background: var(--brown);
+        color: var(--white);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__tour-registrantion_button:hover {
+        transform: scale(1.05);
+        opacity: 0.8;
+        transition: all 0.2s linear;
+    }
+    &__scroll-button-link {
+        display: block;
+        stroke: var(--white);
+        animation: scroll-btn 4s linear infinite;
+        align-self: center;
+    }
+    &__scroll-button-link:hover {
+        stroke: var(--brown);
+        stroke-width: 2px;
+        transform: scale(1.05);
+        transition: all 0.2s linear;
+    }
+}
+@keyframes scroll-btn {
+    0% {
+        transform: scale(1.1);
+        transition: all 0.05s linear;
+    }
+    10% {
+        transform: rotate(5deg);
+        transition: all 0.05s linear;
+    }
+    20% {
+        transform: rotate(-5deg);
+        transition: all 0.05s linear;
+    }
+    30% {
+        transform: rotate(5deg);
+        transition: all 0.05s linear;
+    }
+    40% {
+        transform: rotate(-5deg);
+        transition: all 0.05s linear;
+    }
+    50% {
+        transform: rotate(0);
+        transition: all 0.05s linear;
+    }
+}

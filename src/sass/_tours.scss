@@ -1,0 +1,86 @@
+.tours {
+    margin: 0;
+    padding: 100px 0;
+    &__content-box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 256px);
+        gap: 31px;
+    }
+    &__tour {
+        &-link {
+            display: block;
+            &:hover {
+                opacity: 0.8;
+                transform: scale(1.05);
+                transition: all 0.2s linear;
+            }
+            &:nth-child(1) {
+                animation: tour 11s linear infinite;
+            }
+            &:nth-child(2) {
+                animation: tour 11s linear 8s infinite;
+            }
+            &:nth-child(3) {
+                animation: tour 11s linear 9s infinite;
+            }
+            &:nth-child(4) {
+                animation: tour 11s linear 7s infinite;
+            }
+            &:nth-child(5) {
+                animation: tour 11s linear 10s infinite;
+            }
+            &:nth-child(6) {
+                animation: tour 11s linear 6s infinite;
+            }
+            &:nth-child(7) {
+                animation: tour 11s linear 5s infinite;
+            }
+            &:nth-child(8) {
+                animation: tour 11s linear 3s infinite;
+            }
+            &:nth-child(9) {
+                animation: tour 11s linear 1s infinite;
+            }
+            &:nth-child(10) {
+                animation: tour 11s linear 2s infinite;
+            }
+            &:nth-child(11) {
+                animation: tour 11s linear 4s infinite;
+            }
+        }
+        &-box {
+            padding-bottom: 19px;
+            border: 1px solid var(--grey);
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 12px;
+        }
+        &-image {
+            width: 256px;
+            height: 110px;
+            flex-shrink: 0;
+        }
+        &-title {
+            color: var(--black);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 19px;
+        }
+    }
+}
+@keyframes tour {
+    0% {
+        transform: scale(1.04);
+        transition: all 1s linear;
+    }
+    10% {
+        transform: scale(1);
+        transition: all 1s linear;
+    }
+}

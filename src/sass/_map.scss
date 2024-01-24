@@ -1,0 +1,20 @@
+.map {
+    margin: 0;
+    padding: 50px 0;
+    &__content-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 46px;
+    }
+    &__title {
+        color: var(--black);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; 
+    }
+}

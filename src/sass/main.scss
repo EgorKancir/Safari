@@ -1,0 +1,61 @@
+.body {
+    background: var(--white);
+    backdrop-filter: blur(7px);
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, hr {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+:root {
+    --white: #FFF;
+    --brown:  #886239;
+    --black: #1F1E1E;
+    --grey: #D9D9DE;
+    --grey-background-form: #EAEAEA;
+    --light-gray: #C4C4C4;
+    --orange: orange;
+}
+/* Section 1 header */
+@import'header';
+/* Section 1 header end*/
+/* Section 2 tours */
+@import'tours';
+/* Section 2 tours end */
+/* Section 3 directions */
+@import'directions';
+/* Section 3 directions end */
+/* Section 4 popular-offers */
+@import'popular-offers';
+/* Section 4 popular-offers end */
+/* Section 5 map */
+@import'map';
+/* Section 5 map end */
+/* Section 6 about-safari */
+@import'about-safari';
+/* Section 6 about-safari end */
+/* Section 7 gallery */
+@import'gallery';
+/* Section 7 gallery end */
+/* Section 8 premium */
+@import'premium';
+/* Section 8 premium end */
+/* Section 9 user-info */
+@import'user-info';
+/* Section 9 user-info */
+/* Section 10 footer */
+@import'footer';
+/* Section 10 footer end */
